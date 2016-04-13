@@ -3,11 +3,21 @@
 	<name>lib-phpexcel</name>
 	<comment></comment>
 	<projects>
+		<project>Wordpress Core</project>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.dltk.core.scriptbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>com.aptana.editor.php.phpNature</nature>
-		<nature>com.aptana.projects.webnature</nature>
+		<nature>org.eclipse.php.core.PHPNature</nature>
 	</natures>
 </projectDescription>
